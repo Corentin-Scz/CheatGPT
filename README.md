@@ -7,7 +7,8 @@ Supports single and multiple answer choices.
 Very discreet solution.  
 Add a dot in front of the correct answer.  
 Only proceeds with the selected text, if the same question is below, it will not be processed.  
-A ChatGPT account is required. There is no need to subscribe to ChatGPT+.  
+A ChatGPT account is required. There is no need to subscribe to ChatGPT+.
+Only support GPT3.5.
 
 # How to install
 
