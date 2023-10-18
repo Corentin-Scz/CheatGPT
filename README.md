@@ -7,15 +7,15 @@ Supports single and multiple answer choices.
 Very discreet solution.  
 Add a dot in front of the correct answer.  
 Only proceeds with the selected text, if the same question is below, it will not be processed.  
-A ChatGPT account is required. There is no need to subscribe to ChatGPT+.
+A ChatGPT account is required. There is no need to subscribe to ChatGPT+.  
 Only support GPT3.5.
 
 # How to install
 
-Download the ZIP file, then decompress it.
-Go to manage your plugins in Chrome, then enable the admin mode.  
-Select the folder of the decompressed ZIP. Normally you can see CheatGPT on your plugins list.  
-Restart your browser to complete the install.
+Download the ZIP file, then decompress it.  
+Go to manage your plugins in Chrome, then enable the admin mode.    
+Select the folder of the decompressed ZIP. Normally you can see CheatGPT on your plugins list.    
+Restart your browser to complete the install.  
 
 # How to use
 
