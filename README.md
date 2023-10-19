@@ -23,3 +23,4 @@ Open ChatGPT, refresh, and then you can close the ChatGPT webpage and use the pl
 
 # Demo
 
+![](https://github.com/Corentin-Scz/CheatGPT/blob/main/demo.gif)
