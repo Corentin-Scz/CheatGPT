@@ -20,6 +20,8 @@ Restart your browser to complete the install.
 # How to use
 
 Open ChatGPT, refresh, and then you can close the ChatGPT webpage and use the plugin.
+Select the question and its possible answers, right click then “Processing”. It is also possible to launch the script with the shortcut Ctrl+M.
+You can select whether your MCQ is single choice or multiple choice by clicking on the plugin in your list of plugins.
 
 # Demo
 
