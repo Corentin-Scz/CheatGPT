@@ -14,14 +14,14 @@ Only support GPT3.5.
 
 Download the ZIP file, then decompress it.  
 Go to manage your plugins in Chrome, then enable the admin mode.    
-Select the folder of the decompressed ZIP. Normally you can see CheatGPT on your plugins list.    
+Select the folder of the decompressed ZIP. Normally you can see CheatGPT on your plugins list.      
 Restart your browser to complete the install.  
 
 # How to use
 
-Open ChatGPT, refresh, and then you can close the ChatGPT webpage and use the plugin.
-Select the question and its possible answers, right click then “Processing”. It is also possible to launch the script with the shortcut Ctrl+M.
-You can select whether your MCQ is single choice or multiple choice by clicking on the plugin in your list of plugins.
+Open ChatGPT, refresh, and then you can close the ChatGPT webpage and use the plugin.  
+Select the question and its possible answers, right click then “Processing”. It is also possible to launch the script with the shortcut Ctrl+M.  
+You can select whether your MCQ is single choice or multiple choice by clicking on the plugin in your list of plugins.  
 
 # Demo
 
