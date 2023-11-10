@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "CheatGPT",
-  "version": "1.0",
-  "description": "Allows you to cheat discreetly on MCQs with ChatGPT",
-  "permissions": ["activeTab", "contextMenus"],
+  "version": "1.2",
+  "description": "You know",
+  "permissions": ["activeTab", "contextMenus", "commands", "storage"],
   "background": {
     "service_worker": "background.js"
   },
@@ -16,14 +16,23 @@
     }
   },
   "icons": {
-      "16": "icons/icon16.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
       "js": ["content.js"]
     }
-  ]
+  ],
+  "commands": {
+    "launch_script": {
+      "suggested_key": {
+        "default": "Ctrl+M",
+        "mac": "Command+M"
+      },
+      "description": "Processing"
+    }
+  }
 }

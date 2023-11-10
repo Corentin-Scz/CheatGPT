@@ -2,9 +2,63 @@
 <html>
 <head>
   <title>ChatGPT Sender</title>
+  <style>
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 90px; /* Ajusté pour être plus petit */
+      height: 22px; /* Ajusté pour être plus petit */
+      margin: 10px;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "Unique";
+      display: block;
+      text-align: center;
+      line-height: 22px;
+      width: 100%;
+      height: 100%;
+      color: black;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    input:checked + .slider:before {
+      content: "Multiple";
+      color: white;
+    }
+
+    input:checked + .slider {
+      background-color: #2196F3;
+    }
+
+    .slider.round {
+      border-radius: 22px;
+    }
+
+    .slider.round:before {
+      border-radius: 22px;
+    }
+  </style>
 </head>
 <body>
-  <button id="sendToChatGPT">Send to ChatGPT</button>
-  <script src="content.js"></script>
+  <label class="switch">
+    <input type="checkbox" id="switchProposals">
+    <span class="slider round"></span>
+  </label>
+  <script src="popup.js"></script>
 </body>
 </html>
