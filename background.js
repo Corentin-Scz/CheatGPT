@@ -79,6 +79,10 @@ chrome.runtime.onInstalled.addListener(() => {
     });
 });
 
+chrome.runtime.onInstalled.addListener(function() {
+    chrome.storage.local.set({useMultipleProposals: false})
+});
+
 chrome.storage.local.get(['useMultipleProposals'], function(result) {
     if (result.useMultipleProposals !== undefined) {
         useMultipleProposals = result.useMultipleProposals;
